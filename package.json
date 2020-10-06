@@ -1,0 +1,27 @@
+{
+  "name": "js-constructor",
+  "version": "1.0.0",
+  "description": "javascript pure application",
+  "main": "index.js",
+  "scripts": {
+    "serve": "parcel ./src/index.html -p 4200 --open",
+    "build": "parcel build ./src/index.html --no-source-maps"  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/corsar6599442/js-constructor.git"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "Mikhail Zakharov <corsar6599442@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/corsar6599442/js-constructor/issues"
+  },
+  "homepage": "https://github.com/corsar6599442/js-constructor#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
